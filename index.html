@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Siddhesh Nimodiya — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar" id="site-header">
+  <div class="container header-inner">
+    <nav class="nav-links">
+      <a data-target="#about">About</a>
+      <a data-target="#projects">Projects</a>
+      <a data-target="#skills">Skills</a>
+      <a data-target="#resume">Resume</a>
+      <a data-target="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle">☰</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero container">
+  <div class="hero-left">
+    <h1 class="title purple-name">Siddhesh Nimodiya</h1>
+
+    <p class="lead">
+        I design and build modern web experiences focused on usability, accessibility and clean UI.
+        I enjoy writing structured code, improving UX through feedback, and learning new technologies.
+      
+    </p>
+
+    <div class="hero-ctas">
+      <a class="btn primary" href="siddhesh_resume.docx" download>Download Resume</a>
+      <a class="btn ghost" data-target="#projects">View Projects</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="profile.png" alt="Profile Photo" class="profile-cutout">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section container reveal">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-grid">
+    <div class="card">
+      <p>
+        Curious and motivated Computer Science student with a developing understanding of programming concepts, web development, and data structures. Contributed to the design and development of the Antaragni college fest website using basic HTML, CSS, and JavaScript. Familiar with Python and C++, and actively working on improving coding and problem-solving skills. Interested in learning more about emerging areas like machine learning and data analysis. Known for being a quick learner, team player, and someone who is eager to grow in a technical environment.
+      </p>
+      <div class="quick-stats">
+        <div><strong>Degree</strong><span>B.Tech CSE</span></div>
+        <div><strong>CGPA</strong><span>8.06</span></div>
+        <div><strong>Location</strong><span>Nagpur</span></div>
+      </div>
+    </div>
+
+    <div class="card contact-card">
+      <h3>Contact Info</h3>
+      <p>Email: <a href="mailto:siddheshnimodiya22@gmail.com">siddheshnimodiya22@gmail.com</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section container reveal">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+    <article class="project">
+      <h3>Antaragni Fest Website</h3>
+      <p>Developed UI sections and animations using HTML, CSS, JS.</p>
+      <div class="project-meta">
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+      </div>
+    </article>
+
+    <article class="project">
+      <h3>Portfolio Website</h3>
+      <p>Responsive portfolio with clean UI/UX.</p>
+      <div class="project-meta">
+        <span class="tag">UI/UX</span><span class="tag">Frontend</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section container reveal">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon">💻</div>
+        <div><h4>Frontend</h4><small>HTML • CSS • JS</small></div>
+      </div>
+      <div class="skill-bar" data-value="92"><span class="fill"></span><span class="label">92%</span></div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon">⚛️</div>
+        <div><h4>Frameworks</h4><small>React (Basics)</small></div>
+      </div>
+      <div class="skill-bar" data-value="72"><span class="fill"></span><span class="label">72%</span></div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon">📘</div>
+        <div><h4>Programming</h4><small>Python • C++</small></div>
+      </div>
+      <div class="skill-bar" data-value="78"><span class="fill"></span><span class="label">78%</span></div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon">🛢️</div>
+        <div><h4>Database</h4><small>MySQL</small></div>
+      </div>
+      <div class="skill-bar" data-value="83"><span class="fill"></span><span class="label">83%</span></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="section container reveal">
+  <h2 class="section-title">Resume</h2>
+
+  <div class="resume-wrapper">
+
+    <div class="resume-card">
+      <h3>Experience</h3>
+      <div class="resume-item">
+        <h4>Web Developer — Antaragni Fest</h4>
+        <p class="sub">2025</p>
+        <p>Worked on UI components, animations, navigation and responsiveness.</p>
+      </div>
+    </div>
+
+    <div class="resume-card">
+      <h3>Education</h3>
+      <div class="resume-item">
+        <h4>B.Tech — CSE</h4>
+        <p class="sub">G.H. Raisoni College, Nagpur</p>
+        <p>CGPA: 8.06</p>
+      </div>
+    </div>
+
+    <div class="resume-card resume-download">
+      <h3>Download Resume</h3>
+      <a class="btn primary" href="siddhesh_resume.docx" download>Download</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section container reveal">
+  <h2 class="section-title">Contact</h2>
+
+  <div class="contact-grid">
+    <form id="contact-form" class="contact-form">
+      <label>Name</label><input type="text" required>
+      <label>Email</label><input type="email" required>
+      <label>Message</label><textarea rows="5" required></textarea>
+      <button class="btn primary">Send</button>
+      <p id="form-status"></p>
+    </form>
+
+    <div class="card contact-details">
+      <h4>Reach Me</h4>
+      <p>Email: <a href="mailto:siddheshnimodiya22@gmail.com">siddheshnimodiya22@gmail.com</a></p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Siddhesh Nimodiya</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
